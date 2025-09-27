@@ -17,7 +17,6 @@ Measure Name	Formula (DAX)	Business Meaning
 **Average Pizza per Order**	[total Pizza sold] / [total order placed]	Calculates the average number of pizzas purchased per order (shows order size trend).
 
 **Time Intelligence Columns Created**
+ Month Name – The month name (January, February, …) has been extracted from the order date. This makes it easier to analyze month-wise sales trends and seasonal performance.
 
-**Month Name** – Order date se month ka naam (January, February, …) extract kiya gaya hai. Isse month-wise sales trends aur seasonal performance analyze karna easy ho jata hai.
-
-**Week Day Name** – Order date se week day (Monday–Sunday) fetch kiya gaya hai. Ye column sales ko weekday vs weekend ke perspective se compare karne me madad karta hai aur peak business days identify karne me use hota hai.
+Week Day Name – The weekday (Monday–Sunday) has been derived from the order date. This helps compare sales from weekdays versus weekends and is useful in identifying peak business days.
